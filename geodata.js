@@ -129,7 +129,6 @@ map.on('locationerror', onLocationError);
 		
 		
 //https://etjanster.lantmateriet.se/historiskakartor/s/searchresult.html?archive=GEOIN&firstMatchToReturnLMS=1&firstMatchToReturnREG=1&firstMatchToReturnRAK=1&yMin=6657636&xMin=446992&yMax=6658636&xMax=447992
-//function getLMHistoricalMapsHtml(e,BBOX,WIDTH,HEIGHT,X,Y) {
 function getLMHistoricalMapsHtml(e) {
 	var crsstr = '+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs';
 	var lpoint = proj4(crsstr,[e.latlng.lng,e.latlng.lat]);
