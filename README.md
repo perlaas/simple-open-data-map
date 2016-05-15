@@ -13,7 +13,8 @@ Currently tested on open data from government agencies in Sweden using OCG WMTS 
 - Use standard protocols when possible For example:
   - OGC WMS getMap and getFeatureInfo
   - OGC WMTS.
-- Use simple parsing of callback results (html, XML or JSON). Avoid parsing library if very simple text parsing is possible. For example: 
+- Use simple parsing of callback results (html, XML or JSON). 
+- Avoid parsing library if very simple text parsing is possible. For example: 
   - Use getFeatureInfo in html 
   - Look if there is an html-tag with link (find '>http:') then use it as a link in popup
   - Otherwise use html result as it is.
