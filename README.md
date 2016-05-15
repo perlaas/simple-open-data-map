@@ -6,6 +6,8 @@ Currently tested on open data from government agencies in Sweden using OCG WMTS 
 ## Design
 - Only client side logic. 
   - Exemption: server side (php) API to proxy calls to services that does not support CORS.
+- Keep logic simple to avoid the need for many libraries
+- Use standard javascript over library for simple tasks
 - Add libraries only if they give enough benefit. For example:
   - Use plain XMLHttpRequest instead of adding jQuery only to use it for callbacks.
 - Use simple standard built in functions in main library if possible. For example:
@@ -13,9 +15,12 @@ Currently tested on open data from government agencies in Sweden using OCG WMTS 
 - Use standard protocols when possible For example:
   - OGC WMS getMap and getFeatureInfo
   - OGC WMTS.
+- Use the power of useful sites with open data for needed functions. Examples:
+  - Use Openstreetmap for routing between geopositions from last two clicks in map instead of implementing it
+- Use simple html links with geolocation to other useful sites
 - Use simple parsing of callback results (html, XML or JSON). 
 - Avoid parsing library if very simple text parsing is possible. For example: 
-  - Use getFeatureInfo in html 
+  - Use html return type in WMS getFeatureInfo requests 
   - Look if there is an html-tag with link (find '>http:') then use it as a link in popup
   - Otherwise use html result as it is.
 
