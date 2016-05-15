@@ -1,7 +1,7 @@
 # simple-open-data-map
 Simple web map for open data
 ## Purpose
-A simple and useful web map for open data using open standards as OGC. Useful as it is or as a starting point. 
+A simple but still useful web map for open data using open standards as OGC. Useful as it is, setting configuration you need in conf.js, or as a starting point. 
 Currently tested on open data from government agencies in Sweden using OCG WMTS and WMS. Spatial reference system SWEREF99 TM, epgs 3006.
 ## Design
 - Only client side logic. Exemption: server side (php) API to proxy calls to services that does not support CORS.
