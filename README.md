@@ -6,7 +6,7 @@ Currently tested on open data from government agencies in Sweden using OCG WMTS 
 ## Design
 - Only client side logic. Exemption: server side (php) API to proxy calls to services that does not support CORS.
 - Use standard protocols when possible, i.e. OGC WMS getMap and getFeatureInfo, OGC WMTS.
-- Use simple parsing of callback results (XML or JSON). For example find xml-tag with link (find '>http:') and use it as a link in popup.
+- Use simple parsing of callback results (XML or JSON). Avoid parsing library if possible. For example: 1)  getFeatureInfo in html 2) look if there is an html-tag with link (find '>http:') then use it as a link in popup 3) Otherwise use html result as it is.
 
 ## Usage
 - Use conf.js for configuration of OGC services.
