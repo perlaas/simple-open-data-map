@@ -25,6 +25,8 @@ The code needs some cleaning and comments but is useful as it is.
 - Avoid parsing library if very simple text parsing is possible. For example: 
   - Use html return type in WMS getFeatureInfo requests 
   - Look if there is an html-tag with link (find '>http:') then use it as a link in popup
+    - Works nice with for example: [Jordbruksverket WMS] (http://www.jordbruksverket.se/etjanster/etjanster/stod/kartorochgis/inspiretjanster/visningstjanster.4.23f3563314184096e0d14fd.html)
+    - [Riksantikvarieämbetet WMS] (http://www.raa.se/hitta-information/information-tillganglig-for-vidareutnyttjande/#inspiredata)
   - Otherwise use html result as it is.
 
 ## Usage
