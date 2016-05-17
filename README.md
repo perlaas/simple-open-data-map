@@ -6,6 +6,10 @@ A simple but still useful web map for open data using open standards as OGC. Fun
 Currently tested on open data from government agencies in Sweden using OCG WMTS and WMS. Spatial reference system SWEREF99 TM, epgs 3006.
 
 The code needs some cleaning and comments but is useful as it is.
+
+## Example
+![Screenshot example.](https://raw.githubusercontent.com/perlaas/simple-open-data-map/master/example.png)
+
 ## Design
 - Only client side logic. 
   - Exemption: server side (php) API to proxy calls to services that does not support CORS or does not have wildcard same-origin policy which could be the case for open data.
@@ -42,6 +46,3 @@ The code needs some cleaning and comments but is useful as it is.
 - If you want to use the open data OGC WMTS service from Lantmäteriet get a user account and key. See [Topografisk webbkarta Visning, CC BY] (http://www.lantmateriet.se/sv/Kartor-och-geografisk-information/Geodatatjanster/Visningstjanster/#faq:topografisk-webbkarta-visning-cc-by) 
 
 ##License
-
-## Example
-![Screenshot example.](https://raw.githubusercontent.com/perlaas/simple-open-data-map/master/example.png)
