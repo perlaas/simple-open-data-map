@@ -8,7 +8,7 @@ Currently tested on open data from government agencies in Sweden using OCG WMTS 
 The code needs some cleaning and comments but is useful as it is.
 ## Design
 - Only client side logic. 
-  - Exemption: server side (php) API to proxy calls to services that does not support CORS or does not have wildcard same-origin policy.
+  - Exemption: server side (php) API to proxy calls to services that does not support CORS or does not have wildcard same-origin policy which could be the case for open data.
 - Keep logic simple to avoid the need for many libraries
 - Use standard javascript over library for simple tasks
 - Add libraries only if they give enough benefit. For example:
