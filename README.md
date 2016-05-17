@@ -1,11 +1,13 @@
 # simple-open-data-map
 Simple web map for open data
 ## Purpose
-A simple but still useful web map for open data using open standards as OGC. Useful as it is, setting configuration you need in conf.js, or as a starting point. 
+A simple but still useful web map for open data using open standards as OGC. Functionality include pan and zoom in the map as well as including identify objects at a user selected position in the map. Useful as it is, setting configuration you need in conf.js, or as a starting point. 
 Currently tested on open data from government agencies in Sweden using OCG WMTS and WMS. Spatial reference system SWEREF99 TM, epgs 3006.
+
+The code should need some cleaning and comments but is hopefully useful.
 ## Design
 - Only client side logic. 
-  - Exemption: server side (php) API to proxy calls to services that does not support CORS.
+  - Exemption: server side (php) API to proxy calls to services that does not support CORS or does not have wildcard same-origin policy.
 - Keep logic simple to avoid the need for many libraries
 - Use standard javascript over library for simple tasks
 - Add libraries only if they give enough benefit. For example:
@@ -26,7 +28,7 @@ Currently tested on open data from government agencies in Sweden using OCG WMTS 
 
 ## Usage
 - Use conf.js for configuration of OGC services.
-- Use featureInfo.php for request to server in same domain to handle OGC services not supporting CORS.
+- Use featureInfo.php for request to server in same domain to handle OGC services not supporting CORS or does not have wildcard same-origin policy.
 - Include prerequisites. Example found in karta.html
 
 ## Prerequisites
