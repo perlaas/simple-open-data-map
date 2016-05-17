@@ -8,6 +8,7 @@ Currently tested on open data from government agencies in Sweden using OCG WMTS 
 The code needs some cleaning and comments but is useful as it is.
 
 ## Example
+Example with open data from government agencies in Sweden using OCG WMTS and WMS.
 ![Screenshot example.](https://raw.githubusercontent.com/perlaas/simple-open-data-map/master/example.png)
 
 ## Design
