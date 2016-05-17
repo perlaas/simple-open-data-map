@@ -5,7 +5,7 @@ A simple but still useful web map for open data using open standards as OGC. Fun
 
 Currently tested on open data from government agencies in Sweden using OCG WMTS and WMS. Spatial reference system SWEREF99 TM, epgs 3006.
 
-The code should need some cleaning and comments but is hopefully useful.
+The code needs some cleaning and comments but is useful as it is.
 ## Design
 - Only client side logic. 
   - Exemption: server side (php) API to proxy calls to services that does not support CORS or does not have wildcard same-origin policy.
