@@ -3,12 +3,10 @@ Simple web map for open data
 ## Purpose
 A simple but still useful web map for open data using open standards as OGC. Functionality include pan and zoom in the map as well as including identify objects at a user selected position in the map. Useful as it is by setting configuration you need in conf.js, or as a starting point. 
 
-Currently tested on open data from government agencies in Sweden using OCG WMTS and WMS. Spatial reference system SWEREF99 TM, epgs 3006.
-
-The code needs some cleaning and comments but is useful as it is.
+TODO: The code needs some cleaning and comments but is useful as it is. Better documentation for users/developers.
 
 ## Example
-Example with open data from government agencies in Sweden using OCG WMTS and WMS.
+Example with open data from government agencies in Sweden using OCG WMTS and WMS. Spatial reference system SWEREF99 TM, epgs 3006.
 ![Screenshot example.](https://raw.githubusercontent.com/perlaas/simple-open-data-map/master/example.png)
 
 ## Design
