@@ -1,7 +1,7 @@
 # simple-open-data-map
 Simple web map for open data
 ## Purpose
-A simple but still useful web map for open data using open standards as OGC. Functionality include pan and zoom in the map as well as including identify objects at a user selected position in the map. Useful as it is, setting configuration you need in conf.js, or as a starting point. 
+A simple but still useful web map for open data using open standards as OGC. Functionality include pan and zoom in the map as well as including identify objects at a user selected position in the map. Useful as it is by setting configuration you need in conf.js, or as a starting point. 
 
 Currently tested on open data from government agencies in Sweden using OCG WMTS and WMS. Spatial reference system SWEREF99 TM, epgs 3006.
 
