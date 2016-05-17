@@ -44,4 +44,4 @@ The code needs some cleaning and comments but is useful as it is.
 ##License
 
 ## Example
-(https://raw.githubusercontent.com/perlaas/simple-open-data-map/master/example.png)
+![Screenshot example.](https://raw.githubusercontent.com/perlaas/simple-open-data-map/master/example.png)
